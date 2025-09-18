@@ -12,4 +12,10 @@ yposition = tmpypos;
     ellipse(xposition, yposition, 50, 50);
     
 }
+void move(int moveX, int moveY){
+  xposition = moveX;
+  yposition = moveY;
+  ellipse(xposition, yposition, 50, 50);
+  
+}
 }
